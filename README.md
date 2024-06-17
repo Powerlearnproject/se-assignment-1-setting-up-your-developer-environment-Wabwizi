@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vbnbTt5m)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15287268&assignment_repo_type=AssignmentRepo)
 # Dev_Setup
 Setup Development Environment
 
@@ -33,6 +35,71 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+HERE IS THE DOCUMENT EXPLAINING EVERYTHING AND ALL THE STEPS IN DETAIL BELOW FOR ALL THE ANSWERS NEEDED TO THE WHOLE ASSIGNMENT
+
+How to install windows 11
+step 1 – Formatted by the drive and set the primary partition as active by following the steps below;
+-Connected the USB flash drive to my PC.
+-Opened Disk Management: Right-clicked on Start and chose Disk Management.
+-Formatted the partition: Right-clicked the USB drive partition and choose Format. Selected the FAT32 file system to be able to boot my PC.
+-Set the partition as active: Right-clicked the USB drive partition and clicked Mark Partition as Active.
+Step 2 - Copied Windows Setup to the USB flash drive using steps below;
+-Used File Explorer to copy and paste the entire contents of the Windows product ISO to the USB flash drive.
+- added an unattend file to automate the installation process.
+step 3 - Installed Windows to the new PC through following process.
+-Connected the USB flash drive to a the PC.
+-Turned on the PC and pressed the key that opened the boot-device selection menu for the computer, Selected the option that boots the PC from the USB flash drive.
+- Followed the instructions to install Windows.
+-Removed the USB flash drive.
+
+
+How to install a text editor
+-Downloaded Visual Studio from the official website
+-Visited the Visual Studio website and clicked on "Download Visual Studio."and Followed the on-screen instructions and did download the installer and then ran the downloaded installer. Chose the "Visual Studio" workload during installation, which included the necessary components for general development. In the Visual Studio Installer, I selected the workloads and components I needed like for Common workloads like  Web Development. I then modified installation by customizing the installation by clicking on individual components tab in the installer.
+-Install: Clicked the "Install" button to start the installation process. And after downloading and installing I launched the visual studio then went ahead and signed in with my Microsoft account and finally chose my development settings and I was done.
+![alt text](<Screenshot (17).png>)
+![alt text](<Screenshot (18).png>)
+![alt text](<Screenshot (21) - Copy-1.png>)
+![alt text](<Screenshot (23).png>)
+![alt text](<Screenshot (25).png>)
+![alt text](<Screenshot (26) - Copy.png>)
+
+HOW TO INSTALL GIT
+•  Downloaded the installer: Headed to the official Git for Windows website and downloaded the latest version for my system ( 64-bit).
+•  Run the installer: Double-clicked the downloaded file and followed the on-screen instructions. I kept the default settings during installation for most parts
+•  Verified installation: Opened a Command Prompt window  and typed git –version and the git version was shown
+![alt text](<Screenshot (28).png>)
+![alt text](<Screenshot (30).png>)
+![alt text](<Screenshot (31).png>)
+![alt text](<Screenshot (33).png>)
+
+
+
+     
+ 
+HOW TO INSTALL PYTHON
+-Installation on Windows by doing the following;
+Visited the link https://www.python.org/downloads/ and downloaded the latest version of python by first selecting the version needed. I then clicked on the install now tab, double-clicked the executable file which was downloaded and selected customize installation and proceeded. I clicked on add path check box to set up the path automatically. I then chose other features in customization window and finally installed it and finished. I then checked the downloaded version on command prompt to confirm. 
+ ![alt text ](<Screenshot (34).png>)  
+ ![alt text](<Screenshot (35).png>)
+ ![alt text](<Screenshot (36).png>)
+ ![alt text](<Screenshot (38).png>)
+
+
+HOW TO INSTALL MYSQL
+•  Downloaded MySQL Installer: Navigated to the MySQL downloads website https://dev.mysql.com/downloads/mysql/ and download the MySQL Installer for Windows under the "Community Server" section. Chose the appropriate version (64-bit).
+•  Run the Installer: Double-clicked the downloaded file and followed the on-screen instructions. I chose or selected "Custom" for more control over what components are installed.
+•  Configuration: During the custom installation, I chose to install additional components like MySQL Workbench (a visual administration tool) and configure settings like the root password for MySQL access.
+•  Started the Service: Once the installation was complete, the MySQL typically started automatically.    
+![alt text](<Screenshot (39).png>)
+![alt text](<Screenshot (40).png>)
+![alt text](<Screenshot (41).png>)
+
+
+
+
+
+
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
